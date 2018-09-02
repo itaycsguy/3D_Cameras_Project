@@ -319,7 +319,7 @@ class CamRGBenv():
         video.release()
 
         csv_file.close()
-        CamRGBenv.logger.info("The data has been set to the csv file successfully!")
+        CamRGBenv.logger.info("The data have written to a csv file successfully!")
         #Update the data and save the frames in inner directory and json files
         CamRGBenv.move_files_to_inner_directory(main_dir + '\\computed_files')
         CamRGBenv.move_files_to_inner_directory(main_input_files_dir)

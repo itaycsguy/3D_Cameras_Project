@@ -4,7 +4,7 @@ from Utils import LogBuilder
 """ Class responsibility is about image quantization algorithm and data structure managing """
 class Quantizer():
     MUL_FACTOR = 28
-    ROTATE_FACTOR = 0.2
+    ROTATE_FACTOR = 0.25
     logger = LogBuilder(__name__, False)
 
     def __init__(self,my_orients,people_around_orients):
